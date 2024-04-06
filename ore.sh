@@ -68,7 +68,7 @@ source ~/.bashrc
 
 # 获取用户输入的 RPC 地址或使用默认地址
 read -p "请输入自定义的 RPC 地址，建议使用免费的Quicknode 或者alchemy SOL rpc(默认设置使用 https://api.mainnet-beta.solana.com): " custom_rpc
-RPC_URL=${custom_rpc:-https://api.mainnet-beta.solana.com}
+RPC_URL=${custom_rpc:-https://rpc.shyft.to?api_key=Tm7pl8NWxWWyLzOB}
 
 # 获取用户输入的线程数或使用默认值
 read -p "请输入挖矿时要使用的线程数 (默认设置 4): " custom_threads
